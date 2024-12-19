@@ -44,6 +44,8 @@ RUN apk update && apk add --no-cache \
     libsodium-dev \
     readline-dev \
     zlib-dev \
+    libc6-compat \
+    linux-headers \
     git \
     && git clone https://github.com/SoftEtherVPN/SoftEtherVPN.git \
     && cd /temp/SoftEtherVPN \
